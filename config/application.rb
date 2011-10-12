@@ -44,5 +44,19 @@ module AssetSyncTest311
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    #config.asset_sync.aws_access_key = ENV['AWS_ACCESS_KEY']
+    #config.asset_sync.aws_access_secret = ENV['AWS_ACCESS_SECRET']
+    #config.asset_sync.aws_bucket = ENV['AWS_BUCKET']
+    #config.asset_sync.aws_region = "eu-west-1"
+    # 
+    AssetSync.configure do |config|
+      config.aws_access_key = ENV['AWS_ACCESS_KEY']
+      config.aws_access_secret = ENV['AWS_ACCESS_SECRET']
+      config.aws_bucket = ENV['AWS_BUCKET']
+      config.aws_region = 'eu-west-1'
+      config.existing_remote_files = "keep"
+    end
+
   end
 end
