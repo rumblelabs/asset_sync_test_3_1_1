@@ -1,0 +1,15 @@
+defaults: &defaults
+  aws_access_key: "<%= ENV['AWS_ACCESS_KEY'] %>"
+  aws_access_secret: "<%= ENV['AWS_ACCESS_SECRET'] %>"
+  aws_bucket: "<%= ENV['AWS_BUCKET'] %>"
+  aws_region: "eu-west-1"
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+
