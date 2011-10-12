@@ -1,5 +1,6 @@
-PATH
-  remote: ~/active/asset_sync
+GIT
+  remote: git://github.com/rumblelabs/asset_sync.git
+  revision: e55c561cae2398e70895e6bed22079ac3ce933fe
   specs:
     asset_sync (0.1.6)
       activemodel
