@@ -8,7 +8,8 @@ gem 'rails', '3.1.1'
 gem 'pg'
 #gem 'sqlite3'
 #gem 'asset_sync', :path => '~/active/asset_sync'
-gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git'
+# gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git'
+gem 'asset_sync', :git => 'git://github.com/hone/asset_sync.git', :branch => '6_rails3.1.1'
 
 # Gems used only for assets and not required
 # in production environments by default.

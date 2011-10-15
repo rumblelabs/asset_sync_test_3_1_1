@@ -1,6 +1,13 @@
 require File.expand_path('../boot', __FILE__)
 
-require 'rails/all'
+# require 'rails/all'
+#
+# require "active_record/railtie"
+require "action_controller/railtie"
+#require "action_mailer/railtie"
+#require "active_resource/railtie"
+#require "rails/test_unit/railtie"
+
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
@@ -50,13 +57,13 @@ module AssetSyncTest311
     #config.asset_sync.aws_bucket = ENV['AWS_BUCKET']
     #config.asset_sync.aws_region = "eu-west-1"
     # 
-    AssetSync.configure do |config|
-      config.aws_access_key = ENV['AWS_ACCESS_KEY']
-      config.aws_access_secret = ENV['AWS_ACCESS_SECRET']
-      config.aws_bucket = ENV['AWS_BUCKET']
-      config.aws_region = 'eu-west-1'
-      config.existing_remote_files = "keep"
-    end
+   # AssetSync.configure do |config|
+   #   config.aws_access_key = ENV['AWS_ACCESS_KEY']
+   #   config.aws_access_secret = ENV['AWS_ACCESS_SECRET']
+   #   config.aws_bucket = ENV['AWS_BUCKET']
+   #   config.aws_region = 'eu-west-1'
+   #   config.existing_remote_files = "keep"
+   # end
 
   end
 end

@@ -1,8 +1,9 @@
 GIT
-  remote: git://github.com/rumblelabs/asset_sync.git
-  revision: e55c561cae2398e70895e6bed22079ac3ce933fe
+  remote: git://github.com/hone/asset_sync.git
+  revision: f92c1638bf6a9115026b5072545cc20399feff26
+  branch: 6_rails3.1.1
   specs:
-    asset_sync (0.1.6)
+    asset_sync (0.1.7)
       activemodel
       fog
 
