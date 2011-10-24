@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/rumblelabs/asset_sync.git
-  revision: 77301345f01f2df3499e44dc58b2c3562cac1cee
+  revision: 76618419867417b48e05aa5531f1b8c2890f5e72
   branch: gzip-compression
   specs:
     asset_sync (0.1.9)
