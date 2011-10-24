@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/rumblelabs/asset_sync.git
-  revision: 80080a11abaeea68bf47efc3928cbfea792b122c
-  branch: enhance-assets-precompile-primary
+  revision: 08d49837c3476279b893075371b6b19e8e24cfc9
+  branch: gzip-compression
   specs:
     asset_sync (0.1.8)
       activemodel

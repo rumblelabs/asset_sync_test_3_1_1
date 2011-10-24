@@ -9,7 +9,7 @@ gem 'pg'
 #gem 'sqlite3'
 #gem 'asset_sync', :path => '~/active/asset_sync'
 #gem 'asset_sync'
-gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git', :branch => 'enhance-assets-precompile-primary'
+gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git', :branch => 'gzip-compression'
 
 # Gems used only for assets and not required
 # in production environments by default.
