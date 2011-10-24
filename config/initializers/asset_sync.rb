@@ -6,4 +6,5 @@ AssetSync.configure do |config|
   config.aws_bucket = ENV['AWS_BUCKET']
   config.aws_region = 'eu-west-1'
   config.existing_remote_files = "keep"
+  config.gzip_compression = true
 end
