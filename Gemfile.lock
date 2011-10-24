@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/rumblelabs/asset_sync.git
-  revision: f5c6ba8c0ffdb14c77425eddfc3a336750fae108
+  revision: 7e63396dd2bba16748eff0afe5044f3f9f9dab70
   branch: rackspace
   specs:
     asset_sync (0.1.8)
