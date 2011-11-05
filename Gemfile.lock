@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/rumblelabs/asset_sync.git
-  revision: 567cb20486e79f8c06c688229388b2afd522b5dd
-  branch: rackspace
+  revision: f28bac02303441c1c9c44f9d69ab451032a5d673
+  branch: gzip-compression
   specs:
-    asset_sync (0.1.8)
+    asset_sync (0.1.9)
       activemodel
       fog
 
