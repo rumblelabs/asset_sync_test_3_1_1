@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/rumblelabs/asset_sync.git
-  revision: 50bef1d981975a709625fb2c031aeca3819ef001
-  branch: master
+  revision: 36d36b233bda2b560f36947a636259e0a92fbae3
+  branch: rackspace
   specs:
-    asset_sync (0.1.10)
+    asset_sync (0.2.0)
       activemodel
       fog
 
