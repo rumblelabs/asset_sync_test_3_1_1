@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/rumblelabs/asset_sync.git
-  revision: 36d36b233bda2b560f36947a636259e0a92fbae3
+  revision: a0323763c91d502e8afeebefe60bd016f718ffc5
   branch: rackspace
   specs:
     asset_sync (0.2.0)
@@ -73,7 +73,7 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.17.1)
+    mime-types (1.17.2)
     multi_json (1.0.3)
     net-scp (1.0.4)
       net-ssh (>= 1.99.1)
