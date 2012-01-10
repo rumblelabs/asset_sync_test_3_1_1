@@ -9,7 +9,7 @@ gem 'pg'
 #gem 'sqlite3'
 #gem 'asset_sync', :path => '~/active/asset_sync'
 #gem 'asset_sync', '0.1.9'
-gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git', :branch => 'cache-control-public'
+gem 'asset_sync', :git => 'git://github.com/rumblelabs/asset_sync.git'
 
 # Gems used only for assets and not required
 # in production environments by default.

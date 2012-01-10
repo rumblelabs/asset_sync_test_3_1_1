@@ -1,9 +1,8 @@
 GIT
   remote: git://github.com/rumblelabs/asset_sync.git
-  revision: 460fe75baae142a6bc685b8958c8a671752a49bb
-  branch: cache-control-public
+  revision: 86415d8fca8bf1bf40d33d09089ce37fc0b12768
   specs:
-    asset_sync (0.2.1)
+    asset_sync (0.2.5)
       activemodel
       fog
 
@@ -49,12 +48,12 @@ GEM
       execjs
     coffee-script-source (1.1.2)
     erubis (2.7.0)
-    excon (0.7.6)
+    excon (0.9.4)
     execjs (1.2.9)
       multi_json (~> 1.0)
-    fog (1.1.1)
+    fog (1.1.2)
       builder
-      excon (~> 0.7.4)
+      excon (~> 0.9.0)
       formatador (~> 0.2.0)
       mime-types
       multi_json (~> 1.0.3)
@@ -74,10 +73,10 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.17.2)
-    multi_json (1.0.3)
+    multi_json (1.0.4)
     net-scp (1.0.4)
       net-ssh (>= 1.99.1)
-    net-ssh (2.2.1)
+    net-ssh (2.2.2)
     nokogiri (1.5.0)
     pg (0.11.0)
     polyglot (0.3.2)
