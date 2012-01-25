@@ -10,5 +10,5 @@ AssetSync.configure do |config|
   #config.aws_region = 'eu-west-1'
   config.existing_remote_files = "keep"
   config.gzip_compression = true
-  config.manifest = true
+  config.manifest = false
 end
