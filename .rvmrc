@@ -1,1 +1,1 @@
-rvm 1.9.2@rails_3_1_1
+rvm 1.9.2@rails-3-1 --create
